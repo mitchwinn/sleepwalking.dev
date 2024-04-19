@@ -1,16 +1,16 @@
 :root {
-    --bg: 227, 229, 235;
-    --shade: 202, 204, 209;
-	--darkerink: 153, 187, 255;
-	--ink: 11, 61, 160;
-	--brightink: 204, 221, 255;
-	--link: 11, 61, 160;
-	--visited: 16, 90, 237;
-	--active: 255, 76, 106;
+    --bg: 8, 61, 166;
+	--shade: 12, 22, 77;
+	--ink: 216, 178, 255;
+	--darkerink: 151, 125, 178;
+	--brightink: 203, 153, 255;
+	--link: 178, 184, 255;
+	--visited: 140, 217, 255;
+	--active: 229, 80, 105;
 	--hover: 92, 195, 229;
 	--code: 69, 229, 109;
 	--codebg: 0, 5, 13;
-	--highlight: 255, 195, 76;
+	--highlight: 229, 205, 80;
 
 	--serif: "Platypi", -apple-system-ui-serif, ui-serif, "Georgia", serif;
 	--sans: -apple-system, ui-sans-serif, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -19,9 +19,9 @@
 }
 
 html {
-	background:
+	background: 
 		linear-gradient(180deg, rgba(var(--bg), 1), rgba(var(--shade), 1) 96em),
-		rgba(var(--bg), 1);
+		rgba(var(--shade), 1);
 	background-size: 96em, auto;
 	background-position: center;
 	background-repeat: repeat-x;
@@ -63,7 +63,7 @@ header {
 
 footer {
 	clear: both;
-	color: rgba(var(--ink), 1);
+	color: rgba(var(--ink), 0.5);
 	border-top: 2px solid rgba(var(--ink), 0.125);
 	font-size: 0.875em;
 	margin: 1.5em 0 0 0;
@@ -140,6 +140,25 @@ h1 {
 	line-height: 1.125em;
 }
 
+h2 {
+	color: rgba(var(--darkerink), 0.75);
+	font-family: var(--sans);
+	margin: 0.125em 0;
+	font-size: 1.5em;
+}
+
+h2 strong {
+	color: rgba(var(--darkerink), 1);
+	font-weight: inherit;
+}
+
+h3 {
+	color: rgba(var(--darkerink), 0.5);
+	font-family: var(--sans);
+	margin: 0.125em 0;
+	font-size: 1.25em;
+}
+
 h1 a, h1 a:visited {
 color: rgba(var(--ink), 1);
 text-decoration-color: rgba(var(--brightink), 0.25);
@@ -184,7 +203,7 @@ background: rgba(var(--ink), 1);
 text-shadow: none;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
     :root {
         --bg: 8, 61, 166;
         --shade: 12, 22, 77;
@@ -199,7 +218,7 @@ text-shadow: none;
 		--codebg: 0, 5, 13;
 		--highlight: 229, 205, 80;
     }
-}
+} */
 
 .links, ul.links ul {
     list-style-type: arrows;
