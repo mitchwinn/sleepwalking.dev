@@ -114,6 +114,11 @@ a:has(.avatar):hover .avatar {
 	z-index: 100;
 }
 
+a[target=_blank]::after {
+	content: "↗";
+	margin-left: 0.25em;
+}
+
 a .avatar:active {
 	opacity: 75%;
 	scale: 100%;
@@ -121,6 +126,37 @@ a .avatar:active {
 
 h1:has(.avatar), h2:has(.avatar) {
 	margin: 0.5em 0;
+}
+
+code {
+	color: rgba(var(--code), 1);
+	font-family: var(--mono);
+	font-size: inherit;
+	tab-size: 2;
+	font-feature-settings: "ss01";
+	font-weight: bold;
+}
+
+pre {
+	background: rgba(var(--codebg), 1);
+	border-left: rgba(var(--code), 1) 2px solid;
+	text-shadow: 0 0 0.5em rgba(var(--code), 0.5);
+	margin: 2em 0;
+	padding: 1em 0 1em 1.5em;
+	white-space: pre;
+	overflow-x: scroll;
+}
+
+pre code {
+	font-weight: normal;
+}
+
+.highlight {
+	color: rgba(var(--highlight), 1);
+}
+
+.active {
+	color: rgba(var(--active), 1);
 }
 
 /* Link Styles */
