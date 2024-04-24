@@ -151,12 +151,71 @@ pre code {
 	font-weight: normal;
 }
 
+.checkbox {
+	list-style-type: none;
+	margin-bottom: 0.25em;
+}
+
+input[type="checkbox"] {
+	-webkit-appearance: none;
+	appearance: none;
+	margin: 0;
+	font: inherit;
+	margin-right: 0.25em;
+	color: rgba(var(--darkerink), 0.5);
+	width: 1.15em;
+	height: 1.15em;
+	border: 2px solid rgba(var(--darkerink), 0.375);
+	border-radius: 0.15em;
+	transform: translateY(-0.075em);
+	display: inline-grid;
+  	place-content: center;
+}
+
+input[type="checkbox"]::before {
+	content: "";
+	width: 0.65em;
+	height: 0.65em;
+	transform: scale(0);
+	transition: 120ms transform ease-in-out;
+	box-shadow: inset 1em 1em rgba(var(--code), 1);
+	transform-origin: bottom left;
+  	clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+}
+
+input[type="checkbox"]:checked::before {
+	transform: scale(1);
+	color: rgba(var(--code), 1);
+}
+
+input[type="checkbox"]:hover {
+	border: 2px solid rgba(var(--code), 0.375);
+}
+
+input[type="checkbox"]:checked {
+	/* border: 0.15em solid rgba(var(--code), 1); */
+	color: rgba(var(--code), 1);
+	background: rgba(var(--code), 0.125);
+	border: 2px solid rgba(var(--code), 0.375);
+	text-shadow: 0 0 0.5em rgba(var(--code), 0.25);
+}
+
+input[type="checkbox"]:focus {
+	outline: max(2px, 0.15em) solid rgba(var(--code), 0.5);
+	outline-offset: max(2px, 0.15em);
+}
+
 .highlight {
 	color: rgba(var(--highlight), 1);
 }
 
 .active {
 	color: rgba(var(--active), 1);
+}
+
+.build {
+	display: flex;
+	align-items: center;
 }
 
 /* Link Styles */
@@ -428,6 +487,11 @@ ul.buttons a:active, ul.buttons a:active:hover {
 	text-decoration-color: rgba(var(--ink), 0.25);
 }
 
+ul.checklist li {
+	margin-bottom: 0.25em;
+	list-style-type: square;
+}
+
 div.buttonbox {
 	background: rgba(var(--bg), 0.75);
 	width: auto;
@@ -442,6 +506,7 @@ div.buttonbox p {
 	margin: 0.125em;
 	display: inline-block;
 	color: rgba(var(--darkerink), 1);
+	font-weight: 700;
 }
 
 div.buttonbox p strong {
@@ -451,4 +516,83 @@ div.buttonbox p strong {
 div.buttonbox ul.buttons {
 	margin: 0.25em;
 	display: inline-block;
+}
+
+
+div.buttonbox ul.buttons a::after {
+	content: "";
+	margin: 0;
+}
+.metadata {
+	margin-left: 0.3em;
+	display: inline-block;
+}
+
+.meta {
+    font-size: 0.75em;
+    padding: 0.0625em 0.375em 0.0625em 0.375em;
+    text-shadow: none;
+    overflow: visible;
+    border-radius: 0.25em;
+    font-weight: 600;
+}
+
+.complete {
+	color: rgba(var(--code), 1);
+	background: rgba(var(--code), 0.125);
+	border: 2px solid rgba(var(--code), 0.375);
+	text-shadow: 0 0 0.5em rgba(var(--code), 0.25);
+	font-feature-settings: "ss01";
+	text-transform: uppercase;
+	border-radius: 2em;
+}
+
+.complete::before {
+	content: "✓";
+	margin-right: 0.25em;
+}
+
+.level {
+	/* color: rgba(var(--ink), 1);
+	background: rgba(var(--darkerink), 0.125);
+	border: 2px solid rgba(var(--darkerink), 0.375);
+	text-shadow: 0 0 0.5em rgba(var(--code), 0.25); */
+	background: rgba(var(--codebg), 0.5);
+	color: rgba(var(--highlight), 1);
+	border: 2px ridge rgba(var(--highlight), 1);
+	text-shadow: 0 0 0.5em rgba(var(--highlight), 0.5);
+}
+
+.level::before {
+	content: "↑";
+	margin-right: 0.25em;
+}
+
+.upgrades {
+	/* color: rgba(var(--ink), 1);
+	background: rgba(var(--darkerink), 0.125);
+	border: 2px solid rgba(var(--darkerink), 0.375);
+	text-shadow: 0 0 0.5em rgba(var(--code), 0.25); */
+	background: rgba(var(--codebg), 0.5);
+	color: rgba(var(--highlight), 1);
+	border: 2px ridge rgba(var(--highlight), 1);
+	text-shadow: 0 0 0.5em rgba(var(--highlight), 0.5);
+}
+
+.upgrades::before {
+	content: "+";
+	margin-right: 0.25em;
+}
+
+.completion-percentage {
+	background: rgba(var(--code), 0);
+	color: rgba(var(--code), 1);
+	border: 2px dotted rgba(var(--code), 0.5);
+	padding: 0.0625em 0.5em 0.0625em 0.5em;
+	border-radius: 2em;
+}
+
+.completion-percentage::after {
+	content: "%";
+	margin-left: 0.25em;
 }
