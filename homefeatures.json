@@ -16,19 +16,19 @@
 					"title": "Clean the spray arm",
 					"note": "The spray arm is responsible for distributing water and detergent throughout the dishwasher. Over time, it can become clogged with food particles and other debris. To clean the spray arm, remove it from the dishwasher and rinse it under running water. You can also use a toothbrush or a small wire brush to scrub away any buildup.",
 					"frequencyType": 2,
-					"frequency": 1
+					"frequency": 3
 				},
 				{
 					"title": "Check the dishwasher's seals",
 					"note": "The seals around the dishwasher door can become dirty or worn over time. Check the seals regularly and wipe them clean with a damp cloth if necessary. If you notice any cracks or damage to the seals, they may need to be replaced.",
 					"frequencyType": 2,
-					"frequency": 1
+					"frequency": 3
 				},
 				{
 					"title": "Run a dishwasher cleaner",
 					"note": "You can use a dishwasher cleaner to remove any buildup or odors inside your dishwasher. Run the dishwasher empty and follow the instructions on the cleaner's packaging.",
 					"frequencyType": 2,
-					"frequency": 1
+					"frequency": 3
 				}
 			]	
 		},
@@ -46,32 +46,26 @@
 				{
 					"title": "Check the door gaskets",
 					"note": "The door gaskets on your refrigerator can become dirty or damaged, which can cause cold air to escape and increase your energy bills. Check the gaskets regularly and clean them with a damp cloth if necessary. If you notice any cracks or damage, replace the gaskets.",
-					"frequencyType": 3,
-					"frequency": 1
+					"frequencyType": 2,
+					"frequency": 3
 				},
 				{
-					"title": "Keep the refrigerator clean",
+					"title": "Clean interior",
 					"note": "Clean the inside of your refrigerator regularly, ideally once a week, with a solution of warm water and baking soda. This will help remove any odors and prevent the growth of mold and bacteria.",
-					"frequencyType": 3,
+					"frequencyType": 1,
 					"frequency": 1
 				},
 				{
 					"title": "Check the temperature",
 					"note": "The ideal temperature for a refrigerator is between 35 and 38 degrees Fahrenheit. Use a thermometer to check the temperature regularly and adjust the settings if necessary.",
-					"frequencyType": 3,
+					"frequencyType": 2,
 					"frequency": 1
 				},
 				{
-					"title": "Avoid overloading the refrigerator",
-					"note": "Overloading the refrigerator can reduce its efficiency and cause it to work harder than necessary. Keep the refrigerator organized and avoid blocking the vents to allow for proper air circulation.",
-					"frequencyType": 3,
-					"frequency": 1
-				},
-				{
-					"title": "Defrost the freezer",
-					"note": "If your refrigerator has a freezer, defrost it regularly to prevent ice buildup, which can reduce its efficiency. You can defrost the freezer by turning off the refrigerator and allowing the ice to melt or by using a hairdryer to melt the ice faster.",
-					"frequencyType": 3,
-					"frequency": 1
+					"title": "Replace water filter",
+					"note": "If your refrigerator has a water filter, replace it every 6 months or according to manufacturer recommendations. A dirty filter can affect water taste and quality.",
+					"frequencyType": 2,
+					"frequency": 6
 				}
 			]	
 		},
@@ -89,7 +83,7 @@
 				{
 					"title": "Check the hoses",
 					"note": "Check the hoses that supply water to your washing machine for any signs of wear, cracks or leaks. Replace them if necessary, and make sure they are not kinked or twisted to allow for proper water flow.",
-					"frequencyType": 2,
+					"frequencyType": 3,
 					"frequency": 1
 				},
 				{
@@ -99,14 +93,8 @@
 					"frequency": 1
 				},
 				{
-					"title": "Clean the drum",
-					"note": "Clean the drum of your washing machine at least once a month to prevent odors and mold. Run a cycle with hot water and a cup of white vinegar or bleach to help kill bacteria and remove any buildup.",
-					"frequencyType": 2,
-					"frequency": 1
-				},
-				{
-					"title": "Leave the door open",
-					"note": "After you finish washing, leave the door of your washing machine open to allow air to circulate and prevent moisture buildup that can lead to mold and mildew.",
+					"title": "Clean the gasket and door",
+					"note": "Clean the rubber gasket around the door and the door itself to prevent mold and mildew buildup. Pay special attention to the bottom of the gasket where water can collect.",
 					"frequencyType": 2,
 					"frequency": 1
 				}
@@ -120,7 +108,7 @@
 				{
 					"title": "Clean the lint filter",
 					"note": "The lint filter should be cleaned after every use to prevent the buildup of lint, which can reduce the efficiency of the dryer and pose a fire hazard. Simply remove the lint filter from the dryer and remove any lint with your fingers or a soft brush.",
-					"frequencyType": 2,
+					"frequencyType": 0,
 					"frequency": 1
 				},
 				{
@@ -130,22 +118,97 @@
 					"frequency": 1
 				},
 				{
-					"title": "Check the drum",
-					"note": "The drum of your dryer can become dirty and damaged over time. Clean the drum with a solution of warm water and mild detergent and inspect it for any signs of damage or wear.",
-					"frequencyType": 2,
-					"frequency": 1
-				},
-				{
-					"title": "Inspect the power cord",
-					"note": "The power cord of your dryer can become damaged or frayed over time. Inspect the power cord regularly and replace it if you notice any signs of damage.",
-					"frequencyType": 2,
-					"frequency": 1
-				},
-				{
 					"title": "Check the exhaust hood",
 					"note": "The exhaust hood should be located outside your home and can become clogged with debris, such as bird nests or leaves. Check the exhaust hood regularly and clean it if necessary.",
 					"frequencyType": 2,
+					"frequency": 6
+				}
+			]
+		},
+		{
+			"name": "HVAC System",
+			"description": "",
+			"icon": "air.conditioner.vertical",
+			"tasks": [
+				{
+					"title": "Replace air filter",
+					"note": "Replace the air filter every 1-3 months depending on usage and filter type. A dirty filter can reduce airflow and cause the system to work harder than necessary, leading to higher energy bills and potential breakdowns.",
+					"frequencyType": 2,
+					"frequency": 2
+				},
+				{
+					"title": "Clean outdoor unit",
+					"note": "Clean the outdoor unit (condenser) by removing debris, leaves, and dirt from around the unit. Ensure at least 2 feet of clearance around the unit for proper airflow.",
+					"frequencyType": 2,
+					"frequency": 3
+				},
+				{
+					"title": "Schedule professional maintenance",
+					"note": "Have a professional HVAC technician inspect and maintain your system twice a year - once before cooling season and once before heating season. They can perform comprehensive inspections, clean the system, and address any issues before they become major problems.",
+					"frequencyType": 2,
+					"frequency": 6
+				},
+				{
+					"title": "Check thermostat",
+					"note": "Check your thermostat regularly to ensure it is functioning properly and calibrated correctly. Consider upgrading to a programmable or smart thermostat for better energy efficiency.",
+					"frequencyType": 2,
+					"frequency": 3
+				}
+			]
+		},
+		{
+			"name": "Water Heater",
+			"description": "",
+			"icon": "heater.vertical",
+			"tasks": [
+				{
+					"title": "Drain and flush tank",
+					"note": "Drain and flush the water heater tank annually to remove sediment buildup that can reduce efficiency and damage the tank. Turn off power/gas, let cool, attach hose to drain valve, and flush until water runs clear.",
+					"frequencyType": 3,
 					"frequency": 1
+				},
+				{
+					"title": "Test pressure relief valve",
+					"note": "Test the temperature and pressure relief valve annually by lifting the lever to allow water to flow through the discharge tube. If no water flows or valve continues to leak after testing, replace it immediately.",
+					"frequencyType": 3,
+					"frequency": 1
+				},
+				{
+					"title": "Check anode rod",
+					"note": "Inspect the anode rod every 2-3 years. This sacrificial rod prevents tank corrosion. If the rod is less than 1/2 inch thick or covered with calcium carbonate, replace it.",
+					"frequencyType": 3,
+					"frequency": 2
+				},
+				{
+					"title": "Insulate pipes",
+					"note": "Insulate hot water pipes to reduce heat loss and save energy. This is especially important for the first 6 feet of pipes from the water heater.",
+					"frequencyType": 3,
+					"frequency": 1
+				}
+			]
+		},
+		{
+			"name": "Smoke and Carbon Monoxide Detectors",
+			"description": "",
+			"icon": "smoke.fill",
+			"tasks": [
+				{
+					"title": "Test alarms monthly",
+					"note": "Test all smoke and carbon monoxide detectors monthly by pressing the test button. If the alarm doesn't sound or sounds weak, replace the battery immediately.",
+					"frequencyType": 2,
+					"frequency": 1
+				},
+				{
+					"title": "Replace batteries",
+					"note": "Replace batteries in battery-powered detectors annually or when the low-battery chirp begins. Even hardwired detectors have backup batteries that need replacement.",
+					"frequencyType": 3,
+					"frequency": 1
+				},
+				{
+					"title": "Replace detectors",
+					"note": "Replace smoke detectors every 10 years and carbon monoxide detectors every 5-7 years. Check manufacturer recommendations for your specific models.",
+					"frequencyType": 3,
+					"frequency": 10
 				}
 			]
 		},
@@ -156,26 +219,20 @@
 			"tasks": [
 				{
 					"title": "Vacuum regularly",
-					"note": "Vacuum your carpets at least once a week, or more frequently if you have pets or children. Use a high-quality vacuum cleaner with strong suction and a HEPA filter to remove dirt, dust, and allergens from your carpets.",
+					"note": "Vacuum your carpets at least once a week, or more frequently in high-traffic areas. Use a high-quality vacuum cleaner with strong suction and a HEPA filter to remove dirt, dust, and allergens from your carpets.",
 					"frequencyType": 1,
 					"frequency": 1
 				},
 				{
-					"title": "Spot clean spills and stains",
-					"note": "Address spills and stains as soon as possible to prevent them from setting in. Blot up any excess liquid with a clean cloth, then use a spot cleaning solution and a clean cloth to gently remove the stain.",
-					"frequencyType": 1,
-					"frequency": 1
-				},
-				{
-					"title": "Deep clean periodically",
-					"note": "Deep clean your carpets at least once a year using a carpet cleaning machine or hire a professional carpet cleaning service. This will help remove deep-seated dirt and stains and refresh the appearance of your carpets.",
+					"title": "Deep clean professionally",
+					"note": "Have carpets professionally cleaned every 12-18 months to remove deep-seated dirt and stains and refresh the appearance. This also helps maintain warranty coverage for many carpet types.",
 					"frequencyType": 3,
 					"frequency": 1
 				},
 				{
-					"title": "Rotate furniture",
-					"note": "Heavy furniture can leave indentations in your carpets. To prevent this, rotate your furniture regularly to distribute the weight evenly across your carpets.",
-					"frequencyType": 2,
+					"title": "Spot clean spills immediately",
+					"note": "Address spills and stains as soon as possible to prevent them from setting in. Blot up any excess liquid with a clean cloth, then use a spot cleaning solution and a clean cloth to gently remove the stain.",
+					"frequencyType": 0,
 					"frequency": 1
 				}
 			]
@@ -187,144 +244,21 @@
 			"tasks": [
 				{
 					"title": "Sweep or vacuum regularly",
-					"note": "Sweep or vacuum your hardwood floors at least once a week to remove dirt and debris. Avoid using a vacuum cleaner with a beater bar or rotating brush, as this can scratch the surface of your hardwood floors.",
+					"note": "Sweep or vacuum your hardwood floors at least weekly to remove dirt and debris. Use a soft-bristled broom or vacuum without a beater bar to avoid scratching the surface.",
 					"frequencyType": 1,
 					"frequency": 1
 				},
 				{
-					"title": "Refinish Floors",
-					"note": "Over time, the finish on your hardwood floors can become dull and scratched. Consider refinishing your hardwood floors every 3 to 5 years to restore their beauty and protect them from damage.",
-					"frequencyType": 3,
-					"frequency": 3
-				}
-			]
-		},
-		{
-			"name": "Air Conditioner",
-			"description": "",
-			"icon": "air.conditioner.vertical",
-			"tasks": [
-				{
-					"title": "Clean or replace the air filter",
-					"note": "Clean or replace the air filter in your air conditioner every 1-3 months. A dirty filter can reduce the airflow and cause the system to work harder than necessary, leading to higher energy bills and potential breakdowns.",
+					"title": "Clean with appropriate cleaner",
+					"note": "Clean hardwood floors monthly with a cleaner specifically designed for your floor finish. Avoid using water, vinegar, or oil-based cleaners that can damage the finish.",
 					"frequencyType": 2,
-					"frequency": 3
-				},
-				{
-					"title": "Clean the evaporator coils",
-					"note": "Over time, the evaporator coils in your air conditioner can become dirty and reduce the system's efficiency. Clean the coils at least once a year using a soft brush or commercial coil cleaner.",
-					"frequencyType": 3,
 					"frequency": 1
 				},
 				{
-					"title": "Clean the condenser coils",
-					"note": "The condenser coils in your air conditioner are located outside and can become clogged with dirt and debris, which can reduce the system's efficiency. Clean the coils at least once a year using a garden hose and a coil cleaning solution.",
+					"title": "Refinish floors",
+					"note": "Refinish hardwood floors every 7-10 years depending on wear and traffic. Sand and apply new finish to restore beauty and protect the wood.",
 					"frequencyType": 3,
-					"frequency": 1
-				},
-				{
-					"title": "Check the refrigerant levels",
-					"note": "Low refrigerant levels can indicate a leak in your air conditioner, which can cause the system to work harder than necessary and potentially damage the compressor. Have a professional check the refrigerant levels in your air conditioner every 1-2 years.",
-					"frequencyType": 3,
-					"frequency": 2
-				},
-				{
-					"title": "Inspect the electrical components",
-					"note": "Check the electrical components of your air conditioner, such as the wiring, capacitors, and relays, for signs of wear or damage. If you notice any issues, have a professional repair them immediately.",
-					"frequencyType": 3,
-					"frequency": 1
-				},
-				{
-					"title": "Schedule professional maintenance",
-					"note": "Have a professional HVAC technician inspect and maintain your air conditioner at least once a year. They can perform a comprehensive inspection, clean the system, and address any issues before they become major problems.",
-					"frequencyType": 3,
-					"frequency": 1
-				}
-			]
-		},
-		{
-			"name": "Heater",
-			"description": "",
-			"icon": "heater.vertical",
-			"tasks": [
-				{
-					"title": "Clean or replace the air filter",
-					"note": "Clean or replace the air filter in your heater every 1-3 months. A dirty filter can reduce the airflow and cause the system to work harder than necessary, leading to higher energy bills and potential breakdowns.",
-					"frequencyType": 2,
-					"frequency": 3
-				},
-				{
-					"title": "Check the thermostat",
-					"note": "Check your thermostat regularly to ensure it is functioning properly and set to the desired temperature. If it is not working correctly, have it repaired or replaced by a professional.",
-					"frequencyType": 3,
-					"frequency": 1
-				},
-				{
-					"title": "Inspect the burner",
-					"note": "If you have a gas heater, inspect the burner for signs of wear or damage. A dirty or damaged burner can cause the system to work inefficiently and potentially produce carbon monoxide. Have a professional clean or replace the burner if necessary.",
-					"frequencyType": 3,
-					"frequency": 1
-				},
-				{
-					"title": "Inspect the electrical components",
-					"note": "Check the electrical components of your heater, such as the wiring, capacitors, and relays, for signs of wear or damage. If you notice any issues, have a professional repair them immediately.",
-					"frequencyType": 3,
-					"frequency": 1
-				},
-				{
-					"title": "Schedule professional maintenance",
-					"note": "Have a professional HVAC technician inspect and maintain your heater at least once a year. They can perform a comprehensive inspection, clean the system, and address any issues before they become major problems.",
-					"frequencyType": 3,
-					"frequency": 1
-				},
-				{
-					"title": "Check for leaks",
-					"note": "If you have a gas heater, check for gas leaks regularly. If you smell gas or notice a hissing sound, turn off the gas supply to the heater immediately and contact a professional for repairs.",
-					"frequencyType": 3,
-					"frequency": 1
-				}
-			]
-		},
-		{
-			"name": "Fireplace",
-			"description": "",
-			"icon": "fireplace",
-			"tasks": [
-				{
-					"title": "Clean the fireplace",
-					"note": "Remove any debris or ashes from the fireplace on a regular basis. You can use a fireplace shovel and broom to clean up the ashes and debris.",
-					"frequencyType": 3,
-					"frequency": 1
-				},
-				{
-					"title": "Inspect the chimney",
-					"note": "Inspect the chimney annually to ensure that it is free of debris and in good condition. Look for any cracks, leaks, or signs of damage.",
-					"frequencyType": 3,
-					"frequency": 1
-				},
-				{
-					"title": "Schedule a professional cleaning",
-					"note": "Have a professional chimney sweep clean your chimney at least once a year to remove any buildup of creosote or other debris. This will help prevent fires and ensure that your fireplace operates safely and efficiently.",
-					"frequencyType": 3,
-					"frequency": 1
-				},
-				{
-					"title": "Check the damper",
-					"note": "The damper is the metal plate that controls the airflow in your fireplace. Make sure that it is functioning properly and that it is open when you are using the fireplace and closed when you are not.",
-					"frequencyType": 3,
-					"frequency": 1
-				},
-				{
-					"title": "Use proper fuel",
-					"note": "Only use properly seasoned firewood in your fireplace. Green or wet wood can produce excessive creosote buildup and cause a dangerous chimney fire.",
-					"frequencyType": 3,
-					"frequency": 1
-				},
-				{
-					"title": "Install carbon monoxide detectors",
-					"note": "Install carbon monoxide detectors in your home to alert you in case of a dangerous buildup of carbon monoxide.",
-					"frequencyType": 3,
-					"frequency": 1
+					"frequency": 8
 				}
 			]
 		},
@@ -334,38 +268,20 @@
 			"icon": "window.vertical.open",
 			"tasks": [
 				{
-					"title": "Clean the windows",
-					"note": "Clean your windows regularly to remove dirt and grime buildup. You can use a mixture of water and mild detergent or window cleaner. Avoid using harsh chemicals or abrasive materials that can scratch or damage the glass.",
+					"title": "Clean windows",
+					"note": "Clean your windows every 2-3 months to remove dirt and grime buildup. Use a mixture of water and mild detergent or window cleaner. Avoid using harsh chemicals or abrasive materials that can scratch or damage the glass.",
 					"frequencyType": 2,
 					"frequency": 3
-				},
-				{
-					"title": "Check for damage",
-					"note": "Inspect your windows periodically for any signs of damage, such as cracks, chips, or warping. Address any issues promptly to prevent further damage.",
-					"frequencyType": 2,
-					"frequency": 3
-				},
-				{
-					"title": "Lubricate moving parts",
-					"note": "Lubricate any moving parts on your windows, such as hinges or rollers, with a silicone spray lubricant. This will help keep the windows functioning smoothly and prevent damage to the hardware.",
-					"frequencyType": 3,
-					"frequency": 1
 				},
 				{
 					"title": "Check weatherstripping",
-					"note": "Check the weatherstripping around your windows to ensure that it is in good condition and sealing properly. Replace any worn or damaged weatherstripping to prevent drafts and improve energy efficiency.",
+					"note": "Inspect the weatherstripping around your windows annually to ensure that it is in good condition and sealing properly. Replace any worn or damaged weatherstripping to prevent drafts and improve energy efficiency.",
 					"frequencyType": 3,
 					"frequency": 1
 				},
 				{
-					"title": "Seal gaps and cracks",
-					"note": "Seal any gaps or cracks around the window frames with caulk or weatherstripping to prevent drafts and improve energy efficiency.",
-					"frequencyType": 3,
-					"frequency": 1
-				},
-				{
-					"title": "Inspect screens",
-					"note": "Inspect the screens on your windows for any damage or tears. Replace any damaged screens to keep bugs and debris out of your home.",
+					"title": "Lubricate moving parts",
+					"note": "Lubricate any moving parts on your windows, such as hinges or rollers, annually with a silicone spray lubricant. This will help keep the windows functioning smoothly and prevent damage to the hardware.",
 					"frequencyType": 3,
 					"frequency": 1
 				}
@@ -377,38 +293,20 @@
 			"icon": "house",
 			"tasks": [
 				{
-					"title": "Clean the gutters",
-					"note": "Clean your gutters at least twice a year, in the spring and fall, to remove any debris, such as leaves, twigs, and dirt. You can use a gutter scoop or a pressure washer to remove the debris. Be sure to wear gloves and eye protection when cleaning the gutters.",
+					"title": "Clean gutters and downspouts",
+					"note": "Clean your gutters and downspouts twice a year, in spring and fall, to remove debris such as leaves, twigs, and dirt. Use a gutter scoop or pressure washer. Always wear gloves and eye protection.",
 					"frequencyType": 2,
 					"frequency": 6
 				},
 				{
-					"title": "Check for damage",
-					"note": "Inspect your gutters periodically for any signs of damage, such as cracks, holes, or rust. Address any issues promptly to prevent further damage.",
+					"title": "Inspect for damage",
+					"note": "Inspect your gutters for signs of damage, such as cracks, holes, rust, or improper alignment. Address any issues promptly to prevent water damage to your home's foundation and roof.",
 					"frequencyType": 3,
 					"frequency": 1
 				},
 				{
-					"title": "Check for proper alignment",
-					"note": "Check that your gutters are properly aligned and sloped towards the downspouts. Improper alignment can cause water to overflow and damage your home's foundation and roof.",
-					"frequencyType": 3,
-					"frequency": 1
-				},
-				{
-					"title": "Clean the downspouts",
-					"note": "Clean the downspouts at the same time as cleaning the gutters. Use a plumbing snake or a high-pressure hose to remove any clogs.",
-					"frequencyType": 3,
-					"frequency": 1
-				},
-				{
-					"title": "Install gutter guards",
-					"note": "Consider installing gutter guards to prevent debris from entering your gutters and clogging them. This can reduce the frequency of gutter cleaning.",
-					"frequencyType": 3,
-					"frequency": 1
-				},
-				{
-					"title": "Repair leaks",
-					"note": "Repair any leaks in your gutters using a gutter sealant or patching material. This will prevent water from seeping into your home's foundation or causing damage to the roof.",
+					"title": "Check gutter guards",
+					"note": "If you have gutter guards installed, inspect and clean them annually to ensure they're functioning properly and not clogged with debris.",
 					"frequencyType": 3,
 					"frequency": 1
 				}
@@ -420,71 +318,78 @@
 			"icon": "house",
 			"tasks": [
 				{
-					"title": "Inspect the roof",
-					"note": "Inspect your roof periodically, especially after severe weather, for any signs of damage, such as missing or damaged shingles, cracks, or leaks.",
-					"frequencyType": 3,
-					"frequency": 1
+					"title": "Inspect roof condition",
+					"note": "Inspect your roof twice a year, especially after severe weather, for missing or damaged shingles, cracks, or signs of leaks. Use binoculars from the ground for safety.",
+					"frequencyType": 2,
+					"frequency": 6
 				},
 				{
-					"title": "Clean the roof",
-					"note": "Clean your roof to remove any debris, such as leaves, branches, and dirt, that can trap moisture and cause damage. You can use a broom or a leaf blower to remove the debris.",
+					"title": "Professional roof inspection",
+					"note": "Have a professional roofer perform a comprehensive inspection every 3 years to identify potential issues before they become major problems. This is especially important for roofs over 10 years old.",
 					"frequencyType": 3,
-					"frequency": 1
+					"frequency": 3
 				},
 				{
-					"title": "Trim trees",
-					"note": "Trim any trees or branches that hang over the roof to prevent damage from falling limbs and leaves.",
-					"frequencyType": 3,
-					"frequency": 1
-				},
-				{
-					"title": "Repair damage promptly",
-					"note": "Repair any damage to the roof promptly to prevent further damage and leaks. Hire a professional roofer if you are not comfortable making repairs yourself.",
-					"frequencyType": 3,
-					"frequency": 1
-				},
-				{
-					"title": "Check for proper ventilation",
-					"note": "Ensure that your roof has proper ventilation to prevent moisture buildup that can damage the roof and lead to mold growth.",
-					"frequencyType": 3,
-					"frequency": 1
-				},
-				{
-					"title": "Consider a professional inspection",
-					"note": "Consider hiring a professional roofer to perform a more comprehensive inspection of your roof every few years to identify any potential issues before they become major problems.",
+					"title": "Trim overhanging branches",
+					"note": "Trim any tree branches that hang over the roof to prevent damage from falling limbs and leaves, and to reduce debris accumulation.",
 					"frequencyType": 3,
 					"frequency": 1
 				}
 			]
 		},
 		{
-			"name": "Doors",
+			"name": "Plumbing",
 			"description": "",
-			"icon": "door.left.hand.closed",
+			"icon": "sink",
 			"tasks": [
 				{
-					"title": "Check for proper alignment",
-					"note": "Check the alignment of your doors periodically to ensure that they are not sagging or sticking. If your doors are not properly aligned, it can create strain on the hinges and damage the door frame.",
-					"frequencyType": 3,
+					"title": "Check for leaks",
+					"note": "Inspect all visible plumbing for leaks monthly. Check under sinks, around toilets, and near water heaters. Even small leaks can cause significant damage over time.",
+					"frequencyType": 2,
 					"frequency": 1
 				},
 				{
-					"title": "Lubricate the hinges",
-					"note": "Lubricate the hinges on your doors periodically to ensure that they operate smoothly and quietly.",
-					"frequencyType": 3,
-					"frequency": 1
-				},
-				{
-					"title": "Check the weatherstripping",
-					"note": "Check the weatherstripping around your doors periodically to ensure that it is not damaged or worn. Damaged weatherstripping can reduce the energy efficiency of your home and allow drafts to enter.",
-					"frequencyType": 3,
-					"frequency": 1
-				},
-				{
-					"title": "Clean the door handles",
-					"note": "Clean the door handles and locks periodically to remove dirt and grime that can cause them to malfunction. Use a soft cloth and mild soap to clean the handles and locks.",
+					"title": "Test water pressure",
+					"note": "Check water pressure throughout your home. Low pressure may indicate clogs or leaks, while high pressure can damage pipes and appliances.",
 					"frequencyType": 2,
 					"frequency": 3
+				},
+				{
+					"title": "Clean drains",
+					"note": "Clean drain traps under sinks and remove hair and debris from shower and tub drains monthly to prevent clogs.",
+					"frequencyType": 2,
+					"frequency": 1
+				},
+				{
+					"title": "Winterize outdoor plumbing",
+					"note": "Before first freeze, turn off outdoor water supply, drain hoses, and cover spigots with insulated covers to prevent pipe damage.",
+					"frequencyType": 3,
+					"frequency": 1
+				}
+			]
+		},
+		{
+			"name": "Electrical System",
+			"description": "",
+			"icon": "bolt.fill",
+			"tasks": [
+				{
+					"title": "Test GFCI outlets",
+					"note": "Test all GFCI outlets monthly by pressing the test button, then the reset button. If the outlet doesn't turn off and on properly, replace it immediately.",
+					"frequencyType": 2,
+					"frequency": 1
+				},
+				{
+					"title": "Check electrical panel",
+					"note": "Inspect your electrical panel annually for signs of corrosion, burning smells, or warm spots. Ensure all breakers are properly labeled.",
+					"frequencyType": 3,
+					"frequency": 1
+				},
+				{
+					"title": "Professional electrical inspection",
+					"note": "Have a licensed electrician inspect your electrical system every 10 years for homes under 40 years old, every 5 years for older homes.",
+					"frequencyType": 3,
+					"frequency": 5
 				}
 			]
 		},
@@ -494,230 +399,20 @@
 			"icon": "door.garage.closed",
 			"tasks": [
 				{
-					"title": "Check the balance",
-					"note": "Check the balance of your garage door periodically to ensure that it is not too heavy for the opener to lift. A door that is out of balance can create strain on the opener and damage the door.",
-					"frequencyType": 3,
-					"frequency": 1
-				},
-				{
-					"title": "Lubricate the moving parts",
-					"note": "Lubricate the moving parts of your garage door periodically to ensure that they operate smoothly and quietly. Use a silicone-based lubricant to lubricate the rollers, hinges, and springs.",
-					"frequencyType": 3,
-					"frequency": 1
-				},
-				{
-					"title": "Inspect the tracks",
-					"note": "Inspect the tracks on your garage door periodically to ensure that they are clean and free of debris. Debris in the tracks can cause the door to bind or become misaligned.",
-					"frequencyType": 3,
-					"frequency": 1
-				},
-				{
-					"title": "Check the weatherstripping",
-					"note": "Check the weatherstripping around your garage door periodically to ensure that it is not damaged or worn. Damaged weatherstripping can reduce the energy efficiency of your home and allow drafts to enter.",
-					"frequencyType": 3,
-					"frequency": 1
-				},
-				{
-					"title": "Test the safety features",
-					"note": "Test the safety features of your garage door periodically to ensure that they are functioning properly. Make sure that the auto-reverse feature is working by placing an object in the path of the door.",
-					"frequencyType": 3,
-					"frequency": 1
-				}
-			]
-		},
-		{
-			"name": "Spigot",
-			"description": "",
-			"icon": "spigot",
-			"tasks": [
-				{
-					"title": "Inspect for leaks",
-					"note": "Inspect your spigots periodically for leaks. A leaky spigot can waste a lot of water and cause damage to your home.",
-					"frequencyType": 3,
-					"frequency": 1
-				},
-				{
-					"title": "Replace damaged washers",
-					"note": "If your spigot is leaking, it may be due to a damaged washer. Replace the washer as soon as possible to prevent further damage.",
-					"frequencyType": 3,
-					"frequency": 1
-				},
-				{
-					"title": "Clean the spigot",
-					"note": "Clean the spigot periodically to remove any dirt or debris that may have accumulated. Use a soft cloth and mild soap to clean the spigot.",
-					"frequencyType": 3,
-					"frequency": 1
-				},
-				{
-					"title": "Protect from freezing",
-					"note": "Protect your spigot from freezing during the winter by covering it with an insulated cover or wrapping it with a towel or blanket.",
-					"frequencyType": 3,
-					"frequency": 1
-				},
-				{
-					"title": "Turn off outdoor water supply",
-					"note": "Turn off the outdoor water supply during the winter months to prevent water from freezing in the pipes and causing damage.",
-					"frequencyType": 3,
-					"frequency": 1
-				}
-			]
-		},
-		{
-			"name": "Shower",
-			"description": "",
-			"icon": "shower",
-			"tasks": [
-				{
-					"title": "Clean regularly",
-					"note": "Clean your shower regularly to prevent soap scum and mildew buildup. Use a non-abrasive cleaner and a soft sponge or brush to clean the shower walls, floor, and fixtures.",
-					"frequencyType": 2,
-					"frequency": 3
-				},
-				{
-					"title": "Check for leaks",
-					"note": "Check the showerhead and faucet for leaks periodically. A leaking showerhead or faucet can waste a lot of water and cause damage to your bathroom.",
-					"frequencyType": 2,
-					"frequency": 3
-				},
-				{
-					"title": "Remove hard water buildup",
-					"note": "Remove hard water buildup from your showerhead and fixtures by soaking them in a solution of vinegar and water for a few hours.",
-					"frequencyType": 3,
-					"frequency": 1
-				},
-				{
-					"title": "Seal grout and caulk",
-					"note": "Seal the grout and caulk around your shower regularly to prevent water from seeping behind the tiles and causing damage.",
-					"frequencyType": 3,
-					"frequency": 1
-				},
-				{
-					"title": "Replace worn out parts",
-					"note": "Replace worn out parts, such as the showerhead or faucet, as soon as possible to prevent leaks and ensure proper function.",
-					"frequencyType": 3,
-					"frequency": 1
-				},
-				{
-					"title": "Consider using a water softener",
-					"note": "Consider installing a water softener to prevent hard water buildup and reduce soap scum and mildew.",
-					"frequencyType": 3,
-					"frequency": 1
-				}
-			]
-		},
-		{
-			"name": "Bath",
-			"description": "",
-			"icon": "bathtub",
-			"tasks": [
-				{
-					"title": "Clean regularly",
-					"note": "Clean your bath regularly to prevent soap scum and mildew buildup. Use a non-abrasive cleaner and a soft sponge or brush to clean the bath walls, floor, and fixtures.",
-					"frequencyType": 2,
-					"frequency": 3
-				},
-				{
-					"title": "Check for leaks",
-					"note": "Check the faucet for leaks periodically. A faucet can waste a lot of water and cause damage to your bathroom.",
-					"frequencyType": 2,
-					"frequency": 3
-				},
-				{
-					"title": "Remove hard water buildup",
-					"note": "Remove hard water buildup from your fixtures by soaking them in a solution of vinegar and water for a few hours.",
-					"frequencyType": 3,
-					"frequency": 1
-				},
-				{
-					"title": "Seal grout and caulk",
-					"note": "Seal the grout and caulk around your bath regularly to prevent water from seeping behind the tiles and causing damage.",
-					"frequencyType": 3,
-					"frequency": 1
-				},
-				{
-					"title": "Replace worn out parts",
-					"note": "Replace worn out parts, such as the faucet, as soon as possible to prevent leaks and ensure proper function.",
-					"frequencyType": 3,
-					"frequency": 1
-				},
-				{
-					"title": "Consider using a water softener",
-					"note": "Consider installing a water softener to prevent hard water buildup and reduce soap scum and mildew.",
-					"frequencyType": 3,
-					"frequency": 1
-				}
-			]
-		},
-		{
-			"name": "Oven",
-			"description": "",
-			"icon": "oven",
-			"tasks": [
-				{
-					"title": "Clean the oven regularly",
-					"note": "Clean your oven at least once a month or as needed to prevent buildup of grease and food debris. You can use an oven cleaner or make a paste of baking soda and water to clean the oven.",
+					"title": "Test safety features",
+					"note": "Test the auto-reverse feature monthly by placing an object in the path of the closing door. The door should reverse immediately upon contact.",
 					"frequencyType": 2,
 					"frequency": 1
 				},
 				{
-					"title": "Remove oven racks",
-					"note": "Remove the oven racks and clean them separately in the sink or dishwasher.",
+					"title": "Lubricate moving parts",
+					"note": "Lubricate the garage door's moving parts every 6 months, including rollers, hinges, and springs. Use a silicone-based lubricant for best results.",
 					"frequencyType": 2,
-					"frequency": 1
+					"frequency": 6
 				},
 				{
-					"title": "Check oven seals",
-					"note": "Check the oven seals regularly to ensure that they are intact and not cracked or damaged. Damaged seals can cause heat to escape and make the oven less efficient.",
-					"frequencyType": 3,
-					"frequency": 1
-				}
-			]
-		},
-		{
-			"name": "Sink",
-			"description": "",
-			"icon": "sink",
-			"tasks": [
-				{
-					"title": "Clean regularly",
-					"note": "Clean your sink regularly with a mild detergent and warm water. You can also use a baking soda and vinegar solution to remove stains and odors.",
-					"frequencyType": 2,
-					"frequency": 1
-				},
-				{
-					"title": "Check for leaks",
-					"note": "Check the sink and faucet for leaks periodically. A leaking sink or faucet can waste a lot of water and cause damage to your bathroom or kitchen.",
-					"frequencyType": 3,
-					"frequency": 1
-				},
-				{
-					"title": "Seal grout and caulk",
-					"note": "Seal the grout and caulk around your sink regularly to prevent water from seeping behind the sink and causing damage.",
-					"frequencyType": 3,
-					"frequency": 1
-				}
-			]
-		},
-		{
-			"name": "Toilet",
-			"description": "",
-			"icon": "toilet",
-			"tasks": [
-				{
-					"title": "Clean regularly",
-					"note": "Clean the inside and outside of your toilet regularly with a toilet bowl cleaner and a toilet brush. Make sure to clean under the rim and around the base of the toilet.",
-					"frequencyType": 2,
-					"frequency": 1
-				},
-				{
-					"title": "Check for leaks",
-					"note": "Check the toilet for leaks periodically by adding a few drops of food coloring to the toilet tank. If the water in the bowl changes color, there may be a leak.",
-					"frequencyType": 3,
-					"frequency": 1
-				},
-				{
-					"title": "Maintain the flushing mechanism",
-					"note": "Make sure the flushing mechanism is working properly. If the toilet is not flushing properly, it may be due to a problem with the flapper, fill valve, or other parts.",
+					"title": "Inspect tracks and hardware",
+					"note": "Inspect the tracks, springs, cables, and other hardware annually for signs of wear or damage. Do not attempt to repair springs yourself - call a professional.",
 					"frequencyType": 3,
 					"frequency": 1
 				}
