@@ -11,6 +11,10 @@
             "comment": "Matches any URL whose path starts with /vibereader/"
           },
           {
+            "/": "/oauth/callback*",
+            "comment": "Matches OAuth callback URLs"
+          },
+          {
             "/": "*",
             "comment": "Matches any URL"
           }
