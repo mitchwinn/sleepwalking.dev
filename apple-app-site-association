@@ -1,0 +1,26 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "7935TB247D.dev.sleepwalking.VibeReader"
+        ],
+        "components": [
+          {
+            "/": "/vibereader/*",
+            "comment": "Matches any URL whose path starts with /vibereader/"
+          },
+          {
+            "/": "*",
+            "comment": "Matches any URL"
+          }
+        ]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "7935TB247D.dev.sleepwalking.VibeReader"
+    ]
+  }
+}
