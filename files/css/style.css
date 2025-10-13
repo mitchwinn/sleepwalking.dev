@@ -1,30 +1,25 @@
 :root {
-    --bg: 8, 61, 166;
-	--shade: 12, 22, 77;
-	--ink: 216, 178, 255;
-	--darkerink: 151, 125, 178;
-	--brightink: 203, 153, 255;
-	--link: 178, 184, 255;
-	--visited: 140, 217, 255;
-	--active: 229, 80, 105;
-	--hover: 92, 195, 229;
-	--code: 69, 229, 109;
-	--codebg: 0, 5, 13;
-	--highlight: 229, 205, 80;
+    --bg: 229, 229, 229;
+	--shade: 245, 245, 245;
+	--ink: 15, 14, 18;
+	--darkerink: 60, 60, 64;
+	--brightink: 15, 14, 18;
+	--link: 15, 14, 18;
+	--visited: 60, 60, 64;
+	--active: 255, 69, 0;
+	--hover: 100, 100, 105;
+	--code: 15, 14, 18;
+	--codebg: 240, 240, 240;
+	--highlight: 255, 69, 0;
 
-	--serif: "Platypi", -apple-system-ui-serif, ui-serif, "Georgia", serif;
-	--sans: -apple-system, ui-sans-serif, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	--mono: "Spline Sans Mono", ui-monospace, SFMono-Regular, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
-	--round: ui-rounded, "Arial Rounded MT Bold", sans-serif;
+	--serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	--sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	--mono: "SF Mono", Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+	--round: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 html {
-	background: 
-		linear-gradient(180deg, rgba(var(--bg), 1), rgba(var(--shade), 1) 96em),
-		rgba(var(--shade), 1);
-	background-size: 96em, auto;
-	background-position: center;
-	background-repeat: repeat-x;
+	background: rgba(var(--bg), 1);
 	font-synthesis: none;
 	padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
 	margin: auto;
@@ -35,39 +30,41 @@ html {
 
 body {
     color: rgba(var(--ink), 1);
-	text-shadow: 0 0.125em 0.125em rgba(var(--codebg), 0.125);
-	font-family: var(--mono);
-	font-size: 1.25em;
-    padding: 1.5em;
+	text-shadow: none;
+	font-family: var(--sans);
+	font-size: 1.125em;
+	font-weight: 300;
+    padding: 3em;
     min-width: 0;
-    max-width: 32em;
+    max-width: 48em;
     margin: auto;
+    line-height: 1.6;
 }
 
 img, video {
-	box-shadow: 0 0.5em 0.75em rgba(var(--codebg), 0.125);
-	width: 106.25%;
+	box-shadow: none;
+	width: 100%;
 	height: auto;
-	left: -3.125%;
+	left: 0;
 	position: relative;
-	border-radius: 0.75em;
-	margin: 0.5em 0;
-	transition: 0.5s;
+	border-radius: 0;
+	margin: 1em 0;
+	transition: 0.2s;
 }
 
 header {
-	border-bottom: 2px solid rgba(var(--ink), 0.125);
-	margin: 0 0 1.5em 0;
-	padding: 0 0 0.5em 0;
+	border-bottom: 1px solid rgba(var(--ink), 0.1);
+	margin: 0 0 3em 0;
+	padding: 0 0 2em 0;
 }
 
 footer {
 	clear: both;
-	color: rgba(var(--ink), 0.5);
-	border-top: 2px solid rgba(var(--ink), 0.125);
+	color: rgba(var(--ink), 0.4);
+	border-top: 1px solid rgba(var(--ink), 0.1);
 	font-size: 0.875em;
-	margin: 1.5em 0 0 0;
-	padding: 0.5em 0 0 0;
+	margin: 4em 0 0 0;
+	padding: 2em 0 0 0;
 	opacity: 0.75;
 }
 
@@ -221,10 +218,11 @@ input[type="checkbox"]:focus {
 /* Link Styles */
 a, .a {
 color: rgba(var(--link), 1);
-text-decoration-color: rgba(var(--link), 0.25);
-text-underline-offset: 0.125em;
-text-decoration-thickness: 2px;
-transition: color 0.1875s, text-decoration-color 0.1875s;
+text-decoration: underline;
+text-decoration-color: rgba(var(--link), 0.3);
+text-underline-offset: 0.2em;
+text-decoration-thickness: 1px;
+transition: all 0.2s ease;
 }
 
 a:visited, .visited {
@@ -240,9 +238,11 @@ transition: color 0.0625s, text-decoration-color 0.0625s;
 
 h1 {
 	color: rgba(var(--ink), 1);
-	font-family: var(--serif);
-	font-size: 2em;
-	line-height: 1.125em;
+	font-family: var(--sans);
+	font-size: 1.5em;
+	font-weight: 300;
+	line-height: 1.2;
+	letter-spacing: -0.02em;
 }
 
 h2 {
@@ -289,7 +289,7 @@ text-decoration-color: rgba(var(--active), 0.5);
 
 a:hover, a.hover, h1 a:hover, h2 a:hover, h3 a:hover, .breadcrumbs a:hover {
 color: rgba(var(--hover), 1);
-text-decoration-color: rgba(var(--hover), 0.5);
+text-decoration-color: rgba(var(--hover), 0.8);
 }
 
 h2 a.anchor, h2 a.anchor:active, h2 a.anchor:visited {
@@ -326,7 +326,25 @@ text-shadow: none;
 } */
 
 .links, ul.links ul {
-    list-style-type: arrows;
+    list-style-type: none;
+    padding: 0;
+}
+
+.links li {
+    margin: 1em 0;
+    font-weight: 300;
+}
+
+.links a {
+    text-decoration: none;
+    border-bottom: 1px solid rgba(var(--ink), 0.2);
+    padding-bottom: 0.25em;
+    transition: all 0.2s ease;
+}
+
+.links a:hover {
+    border-bottom-color: rgba(var(--ink), 0.6);
+    transform: translateX(0.5em);
 }
 
 @counter-style arrows {
@@ -450,30 +468,31 @@ ul.buttons {
 }
 
 ul.buttons a {
-	color: rgba(var(--link), 1);
-	outline: 2px solid rgba(var(--link), 0.5);
-	background: rgba(var(--link), 0.125);
+	color: rgba(var(--ink), 1);
+	outline: 1px solid rgba(var(--ink), 0.2);
+	background: rgba(var(--shade), 1);
 	display: inline-block;
-	padding: 0.0625em 0.625em 0.125em 0.625em;
+	padding: 0.5em 1em;
 	margin: 0.25em 0.125em;
-	border-radius: 0.25em;
+	border-radius: 0;
 	text-decoration: none;
-	transition: 0.1875s;
+	transition: 0.15s;
+	font-weight: 300;
 }
 
 ul.buttons a:hover {
-	color: rgba(var(--hover), 1);
-	outline: 2px solid rgba(var(--hover), 0.5);
-	background: rgba(var(--hover), 0.125);
+	color: rgba(var(--ink), 1);
+	outline: 1px solid rgba(var(--ink), 0.4);
+	background: rgba(var(--ink), 0.05);
 	text-shadow: none;
-	scale: 103.125%;
+	transform: translateY(-1px);
 }
 
 ul.buttons a:active, ul.buttons a:active:hover {
 	color: rgba(var(--active), 1);
-	outline: 2px solid rgba(var(--active), 0.5);
-	background: rgba(var(--active), 0.125);
-	scale: 100%;
+	outline: 1px solid rgba(var(--active), 1);
+	background: rgba(var(--active), 0.1);
+	transform: translateY(0);
 }
 
 .breadcrumbs {
